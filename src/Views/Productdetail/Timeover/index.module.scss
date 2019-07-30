@@ -1,0 +1,30 @@
+.TimeServer{
+    width: 3.3rem;
+    margin: 0 auto;
+    .Time{
+        width: 3.3rem;
+        font-size: 13px;
+        height: 0.6rem;
+        line-height: 0.6rem;
+        border-bottom: 0.02rem solid #F7F7F7;
+        .over{
+            margin-left: 0.3rem;
+            color: #000;
+            font-weight: bold;
+            .special{
+                padding: 0 0.1rem;
+            }
+        }
+    }
+    .Server{
+        color: #666;
+        width: 3.3rem;
+        font-size: 12px;
+        height: 0.6rem;
+        line-height: 0.6rem;
+        border-bottom: 0.02rem solid #F7F7F7;
+        .warning{
+            margin-left: 0.3rem; 
+        }
+    }
+}

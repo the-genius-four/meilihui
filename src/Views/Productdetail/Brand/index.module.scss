@@ -1,0 +1,43 @@
+.brand{
+    width: 3.3rem;
+    margin: 0 auto; 
+    border-bottom: 0.03rem solid #F7F7F7;
+    position: relative;
+    h2{
+        font-weight: bold;
+        font-size: 18px; 
+        margin-top: 0.2rem;
+        span{
+            margin-left: 1.6rem;
+            font-size: 14px;
+            color: #666;
+            font-weight: 100;
+            display: inline-block;
+        }   
+    } 
+    .sanjiao{
+        border-top: 0.04rem solid red;
+        border-left: 0.04rem solid white;
+        border-right: 0.04rem solid white;
+        position: absolute;
+        left: 1.6rem;
+        bottom: 0.4rem;
+        
+    }
+    .more{
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+        display: block;
+        margin-top: 2rem;
+        padding: 0.2rem 0;
+    }
+    p{
+        color: #000;
+        margin-top: 2rem;
+        line-height: 0.2rem;
+        font-size: 13px;
+        padding: 0.2rem 0;
+        
+    }
+}

@@ -1,0 +1,69 @@
+body{
+    background:#fff;
+    // touch-action: pan-y
+    width:100%;
+}
+.brank{
+    height:2.25rem;
+    margin-bottom:0.15rem;
+    width:100%;
+    position: relative;
+    img{
+        height:2.25rem;
+        width:100%;
+    }
+    h2{
+        position: absolute;
+        bottom:.2rem;
+        width:100%;
+        height:.27rem;
+        text-align: center;
+        line-height:.27rem;
+        font-size:.27rem;
+        color:#fff;
+    }
+}
+.totil{
+    height:.58rem;
+    width:100%;
+    text-align:center;
+    line-height:.58rem;
+    color:#999;
+    span:nth-of-type(1){
+        margin-right:0.05rem;
+    }
+}
+.summery{
+    padding:0 .25rem;
+    height:1.69rem;
+    position: relative;
+    width:3.24rem;
+    margin-bottom:.1rem;
+    P{
+        height:1.25rem;
+        color:#666;
+        margin-bottom:0;
+        line-height:.24rem;
+        width:3.25rem;
+    }
+    span{
+        display:block;
+        height:.44rem;
+        width:3.25rem;
+        text-align:center;
+        line-height:.44rem;
+        color:#d88358;
+    }
+    .pack{
+        display:block;
+        height:.44rem;
+        width:3.25rem;
+        text-align: center;
+        width:3.25rem;
+        line-height:.44rem;
+        color:#d88358;
+        position: absolute;
+        bottom:0.44rem;
+        background: linear-gradient(180deg,hsla(0,0%,100%,.9),#fff);
+    }
+}

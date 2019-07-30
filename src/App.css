@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size:14px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html,
+body {
+    font-size: 26.67vw;
+}
+
+img {
+    display: block;
+}

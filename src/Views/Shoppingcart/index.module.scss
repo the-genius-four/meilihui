@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../assets/iconfont/iconfont.eot');
+    src: url('../../assets/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/iconfont/iconfont.woff2') format('woff2'),
+        url('../../assets/iconfont/iconfont.woff') format('woff'),
+        url('../../assets/iconfont/iconfont.ttf') format('truetype'),
+        url('../../assets/iconfont/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body{
+    background: white !important
+}  
+
+    .icon{
+      display: flex;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 0.44rem;
+      line-height: 0.44rem;
+      background-color: rgba(0, 0, 0, 0);
+      background-color: rgba(0, 0, 0, 0);
+     .left
+       {
+            height: 0.44rem;
+            line-height: 0.44rem;
+            font-size: 16px;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            margin-left:.15rem;
+      }
+      .right{
+            height: 0.44rem;
+            font-size: 16px;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            margin-right:.15rem;
+            font-weight: bold;
+      }
+      i{
+        font-size: 24px;
+        font-weight: bold;
+      }
+    .middle {
+        font-size:.15rem;
+        font-weight: bold;
+        flex:1;
+        text-align: center;
+
+     }
+    }
+
+        
+
+  //隐藏的列表
+  .show{
+    width: 1.1rem;
+    height: 1.7rem;
+     background-color: hsla(0,0%,96%,.96);
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    z-index:100;
+    li{
+      font-size: 0.16rem;
+      flex: 1;
+      text-align: center;
+      line-height: 0.5rem;
+      border-bottom: 0.01rem solid #ccc;
+      font-weight: bold;
+    }
+    li:nth-of-type(3){
+      border-bottom: 0
+    }
+    span{
+      width: 0;
+      height: 0;
+      border-left: 0.1rem solid #fff;
+      border-right: 0.1rem solid #fff;
+      border-bottom: 0.1rem solid hsla(0,0%,96%,.96);
+      position: absolute;
+      top: -0.1rem;
+      right: 0.15rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+    
+.shopcarimg {
+    margin: 0 auto;
+    height: 2rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+    position: relative;
+  
+    img {
+      margin: 0 auto;
+    }
+    p {
+      font-size: 0.14rem;
+      text-align: center;
+      color: #999;
+    }
+    div {
+      margin: 0 auto;
+      font-size: 0.14rem;
+      text-align: center;
+      width: 0.85rem;
+      height: 0.3rem;
+      border: 0.02rem solid #000;
+      line-height: 0.3rem;
+      box-shadow: 0.003333rem 0.003333rem 0 0 #000,
+        -0.003333rem -0.003333rem 0 0 #000;
+        margin-top: 0.1rem;
+    }
+    h3 {
+      font-size: 0.16rem;
+      position: absolute;
+      bottom: -0.1rem;
+      left:1.35rem;
+      font-weight: 100;
+      width: 1rem;
+      height: 0.2rem;
+      padding: 0.01rem;
+      background: white;
+      text-align: center;
+    }
+  }
+  .products{
+    margin-top:.1rem;
+  }   
+
+  .products img{
+    width:1.65rem;
+    height:2.2rem;
+  }
+  .products .newEventList{
+    position: relative;
+    padding:0 .15rem;
+    float:left;
+    width:1.5rem;
+  }
+  .products h6{
+    font-size:14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform : uppercase;
+    font-weight: bold;
+        span{
+          width:.53rem;
+          display: block;
+          border:1px solid #000;
+        }
+  }
+  .products p{
+    font-size:12px;
+    font-weight: bold
+  }
+  .products p span{
+    color:red;
+    font-weight: bold
+  }
+   .products p i{
+     text-decoration: line-through;
+     color:#ccc;
+   }

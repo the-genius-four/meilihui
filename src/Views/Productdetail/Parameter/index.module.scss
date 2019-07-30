@@ -1,0 +1,30 @@
+.parameter{
+    width: 3.3rem;
+    margin: 0 auto;
+    font-weight: bold;
+    border-bottom: 0.03rem solid #F7F7F7;
+    h2{    
+        font-weight: bold;
+        font-size: 18px; 
+        margin-top: 0.2rem;
+        padding: 0.1rem 0;
+    }
+    .infomation {
+        li{
+            line-height: 0.3rem;
+            font-size: 13px;
+        }
+        .name{
+            color: #999;
+            width: 1rem;
+            display: inline-block; 
+            height: 0.3rem;     
+        }
+        .value{
+            color: #000;
+            height: 0.3rem;
+            width: 2.2rem;
+            display: inline-block;
+        }
+    }
+}

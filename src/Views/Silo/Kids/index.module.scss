@@ -1,0 +1,27 @@
+.eventContainer{
+    padding-top: .15rem;
+}
+.categoryList{
+    padding: .05rem 0;
+    .subMenu{
+        margin: 0 .1rem;
+        width: 3.54rem;
+        height: auto;
+        ul{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            .CategoryList{
+                flex-grow: 1;
+                text-align: center;
+                position: relative;
+                margin: 0 .045rem;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.Footerbar{
+    background: white;
+    display: flex;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    border-top: 0.01rem solid #eee;
+    border-bottom: 0.01rem solid #eee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    li:nth-of-type(1){
+        flex:1;
+        font-size: 13px;
+        line-height: 0.2rem;
+        .iconfont{
+            display: block;
+            font-size: 14px;
+        }
+        a{
+            color: #999;
+            display: block;
+           
+        }
+        
+    }
+    li:nth-of-type(2){
+        flex:2;
+        font-size: 15px;
+        border-right: 0.01rem solid #eee;
+
+        a{
+            color: black;
+        }
+    }
+    li:nth-of-type(3){
+        flex:2;
+        font-size: 15px;
+        a{
+            color: red;
+        }
+    }
+}

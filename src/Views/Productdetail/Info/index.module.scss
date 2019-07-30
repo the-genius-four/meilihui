@@ -1,0 +1,42 @@
+.info{
+    width: 3.3rem;
+    margin: 0 auto;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.01rem solid #F7F7F7;
+    h1{
+        font-size: 18px;
+        font-weight: 500;
+        color: #000
+    }
+    .marketPrice{
+        font-size: 12px;
+        font-weight: 400;
+        color: #CCC;
+        text-decoration: line-through;
+        height: 0.1rem
+    }
+    .price{
+        line-height: 0.4rem;
+        font-size: 15px;
+        font-weight: 600;
+        color:#DD2828
+    }
+    .discount{
+        font-size: 13px;
+        border: 0.01rem solid #000;
+        color: #000;
+        margin-left: 0.1rem;
+        padding: 0.01rem;
+    }
+    .warehouse_name{
+        font-size: 13px;
+        font-weight: bold;
+        color: #000
+    }
+    .deliver_date{
+        font-size: 12px;
+        margin-left: .2rem;
+        color: #666;
+    }
+
+}
